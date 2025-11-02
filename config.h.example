@@ -1,0 +1,21 @@
+#define DHTPIN 2
+#define DHTTYPE DHT22
+
+#define UPDATE_INTERVAL 5000  // update interval in milliseconds
+#define LED_BUILTIN 8 // Status LED pin
+
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
+#define WIFI_POWER WIFI_POWER_8_5dBm  // wifi power
+// for esp32c3 without an extern antenna the power is, WIFI_POWER_8_5dBm, 
+// but in images/esp32c3_antenna you have a photo of how improve the signal with an external 
+// antenna of copper wire, for the esp32c3 with external antenna use WIFI_POWER_5dBm
+#define WIFI_HOSTNAME "esp32c3"
+
+// sensor characteristics
+#define PAIRING_CODE "11223344"
+#define SENSOR_NAME "DHT22 Sensor"
+#define SENSOR_MANUFACTURER "MyCompany"
+#define SENSOR_SERIAL "DHT22001"
+#define SENSOR_MODEL "DHT22-ESP32C3"
+#define SENSOR_FIRMWARE "1.0"
