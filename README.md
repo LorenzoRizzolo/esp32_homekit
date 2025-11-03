@@ -9,6 +9,7 @@
 Copy the file `/config.h.example` into `/include/config.h` and complete all data necessary for your ESP.
 
 For the definintion of `WIFI_POWER` i've used `WIFI_POWER_5dBm` becouse i've added an external antenna of copper wire to my esp32c3 (like in the photo below), if you don't have it use `WIFI_POWER_8_5dBm` to maximase the performance of your wifi module.
+For ESP32 classic use `#define WIFI_POWER 0` to ignore it.
 
 ![esp32c3_antenna][https://github.com/LorenzoRizzolo/esp32_homekit/blob/main/images/esp32c3_antenna.png?raw=true]
 

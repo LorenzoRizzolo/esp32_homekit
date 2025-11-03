@@ -67,7 +67,9 @@ void setup() {
   // ---- Wi-Fi init ----
   WiFi.mode(WIFI_STA);
   WiFi.setHostname(WIFI_HOSTNAME);
-  WiFi.setTxPower(WIFI_POWER);
+  #ifdef WIFI_POWER
+    WiFi.setTxPower(WIFI_POWER);
+  #endif
 
   dht.begin();
 
