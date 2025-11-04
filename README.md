@@ -37,3 +37,11 @@ Just connect your iPhone to the same wifi network and open the Homekit app.
 ## Features
 - Temperature sensor
 - Humidity sensor
+
+# LCD Display (optional)
+If you want to use an LCD display to show temperature and humidity values, connect it to your esp32 or esp32c3 as follows:
+- VCC to 3.3V
+- GND to GND
+- SDA to GPIO21 (or any other I2C SDA pin)
+- SCL to GPIO22 (or any other I2C SCL pin)
+
