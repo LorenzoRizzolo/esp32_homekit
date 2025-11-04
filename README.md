@@ -44,4 +44,5 @@ If you want to use an LCD display to show temperature and humidity values, conne
 - GND to GND
 - SDA to GPIO21 (or any other I2C SDA pin)
 - SCL to GPIO22 (or any other I2C SCL pin)
+<img width="250" height="300" alt="IMG_9303" src="https://github.com/user-attachments/assets/9a713a55-9e1f-49ec-a2e5-21b2cfebf365" />
 
