@@ -72,6 +72,29 @@ platformio run --target upload -e <environment> && sudo pio device monitor -e <e
 ```
 Replace `<environment>` with the environment you are using (for example, `esp32ce` or `esp32`).
 
+<<<<<<< HEAD
+=======
+---
+
+## Associate with Homekit
+After the upload, in serial monitor type the space key to print the Homekit options.
+You have the wifi network and pairing code already setted in the `config.h` file, so you don't need to change anything.
+Just connect your iPhone to the same wifi network and open the Homekit app.
+
+---
+
+## Features
+- Temperature sensor
+- Humidity sensor
+
+# LCD Display (optional)
+If you want to use an LCD display to show temperature and humidity values, connect it to your esp32 or esp32c3 as follows:
+- VCC to 3.3V
+- GND to GND
+- SDA to GPIO21 (or any other I2C SDA pin)
+- SCL to GPIO22 (or any other I2C SCL pin)
+<img width="250" height="300" alt="IMG_9303" src="https://github.com/user-attachments/assets/9a713a55-9e1f-49ec-a2e5-21b2cfebf365" />
+>>>>>>> 9f21eac4b4a5ca205f75b2bc1d4bba70944e36d2
 
 ### 4. Pair with HomeKit
 - Open the Home app on your iOS device.
