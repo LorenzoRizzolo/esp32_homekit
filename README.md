@@ -73,6 +73,7 @@ platformio run --target upload -e <environment> && sudo pio device monitor -e <e
 Replace `<environment>` with the environment you are using (for example, `esp32ce` or `esp32`).
 
 <img width="250" height="300" alt="IMG_9303" src="https://github.com/user-attachments/assets/9a713a55-9e1f-49ec-a2e5-21b2cfebf365" />
+<img width="250" height="300" alt="esp32c3_antenna" src="https://github.com/user-attachments/assets/e76041e6-3ab3-4546-a9b6-bebe79f8c7da" />
 
 ### 4. Pair with HomeKit
 - Open the Home app on your iOS device.
