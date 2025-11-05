@@ -83,7 +83,7 @@ void setup() {
 
   // ---- HomeSpan init ----
   homeSpan.setLogLevel(1);  // Log messages
-  homeSpan.setStatusPin(LED_BUILTIN);       // Status LED pin
+  homeSpan.setStatusPin(LED_BUILTIN);
   homeSpan.setWifiCredentials(WIFI_SSID, WIFI_PASSWORD);
   homeSpan.setPairingCode(PAIRING_CODE);
   homeSpan.begin(Category::Sensors, SENSOR_NAME);

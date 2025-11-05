@@ -18,16 +18,16 @@ void displayUpdate(float temperature, float humidity) {
   tft.fillScreen(ST77XX_BLACK);
   tft.setCursor(0, 0);
   tft.setTextColor(ST77XX_CYAN);
-  tft.setTextSize(5);
+  tft.setTextSize(7);
   tft.printf("%.1f", temperature);
   tft.setTextColor(ST77XX_WHITE);
-  tft.setTextSize(2);
+  tft.setTextSize(3);
   tft.print(" C");
 
   tft.setTextColor(ST77XX_YELLOW);
   tft.print("\n\n\n"+String(humidity, 1));
   tft.setTextColor(ST77XX_WHITE);
-  tft.print(" % of humidity");
+  tft.print(" % \nof humidity");
 }
 void displayClear() {
   tft.fillScreen(ST77XX_BLACK);
